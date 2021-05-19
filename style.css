@@ -1,0 +1,116 @@
+body{
+    background-color: #d3d3d3 !important;
+    overflow-x: hidden;
+}
+#headerImg{
+    height: 380px;
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+input{
+    text-align: center;
+    border: none;
+    width: 250px;
+}
+
+#inputDiv{
+    text-align: center;
+}
+
+#propData{
+    background-color: white;
+    text-align: center;
+}
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #726666;
+}
+
+#houseImg{
+    height: 156px;
+    width: 195px;
+    position: relative;
+    bottom: 255px;
+    left: 454px;
+}
+
+.offMarket{
+    position: relative;
+    bottom: 99px;
+    right: 170px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #726666;
+}
+p{
+    color: black !important;
+}
+
+.onMarket{
+    position: relative;
+    bottom: 204px;
+    left: 228px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #726666;
+}
+
+
+
+@media (min-width: 576px) { 
+    #headerImg{
+        height: 301px;
+        width: 112%;
+    }
+    #propData{
+        width: 112%;
+    }
+    .onMarket{
+        left: 162px;
+    }
+    #houseImg{
+        height: 130px;
+        width: 147px;
+        position: relative;
+        bottom: 255px;
+        left: 230px;
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+    #headerImg{
+        height: 301px;
+        width: 112%;
+    }
+    #propData{
+        width: 112%;
+        font-size: 10px;
+    }
+    .onMarket{
+        left: 100px;
+        bottom: 120px;
+    }
+    .offMarket{
+        bottom: 39px;
+        right: 87px;
+    }
+    #houseImg{
+    height: 60px;
+    width: 65px;
+    position: relative;
+    bottom: 175px;
+    left: 135px;
+    
+    }
+    
+}
